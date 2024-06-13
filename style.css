@@ -15,7 +15,10 @@ main{
     background-color: #D99459;
    margin: 0;
 }
-
+p{
+font-size: 20px;
+margin-left: 20px;
+}
 .footimg{
     width: 70px;
     height: 70px;
@@ -35,6 +38,10 @@ main img:hover{
     transition: 1s;
 
 }
+.maintext{
+    font-size: 20px;
+    color: white;
+}
 .menu{
     display: flex;
     justify-content: space-around;
@@ -44,6 +51,12 @@ main img:hover{
     display: flex;
     justify-content:center;
     font-size: 30px;
+}
+.headimg{
+    width: 200px;
+    height: 200px;
+display: flex;
+justify-content: space-around;
 }
 article{
     text-align: center;
@@ -62,4 +75,31 @@ h2{
 footer div{
     display: flex;
     justify-content: space-around;
+}
+.head:hover{
+    border: solid 2px #CE864E;
+    color: rgb(24, 45, 232);
+    
+}
+.head{
+  font-size: 21px;
+  background-color:#000001;
+  opacity: 0.4;
+ color: #CE864E;
+ display: flex;
+ justify-content: center;
+  
+}
+.cafe{
+    width: 250px;
+    height: 350px;
+}
+.photo{
+    color: azure;
+    text-align: center;
+    
+}
+.footimg:hover{
+    width: 80px;
+    height: 80px;
 }
